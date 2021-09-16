@@ -1,0 +1,1 @@
+With this project I learned a lot about links, that is something useful, also, something that I always wanted to know how it works and it's about relative links (link within your page), looking forward with TOP.
