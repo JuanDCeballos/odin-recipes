@@ -4,15 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <h2>Recipes:</h2>
-    <ul>
-      <li><a href="recipes/chicken.html">Lemon Thyme Chicken Tenders</a></li>
-      <li><a href="recipes/apple-pie.html">Apple Pie</a></li>
-      <li><a href="recipes/casserole.html">King Ranch Chicken Casserole</a></li>
-    </ul>
+    <h1 class="title">Odin Recipes</h1>
+    <h2 class="subtitle">Recipes</h2>
+    <section class="cards">
+      <div class="card">
+        <div class="card-img">
+          <img src="images/chicken.jpeg" alt="Lemon Thyme Chicken Tenders" />
+        </div>
+        <div class="card-content">
+          <div class="card-content-flex">
+            <div class="card-text">
+              <p class="food-name">Lemon Thyme Chicken Tenders</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-price">FREE</div>
+          </div>
+          <div class="card-other">
+            <div class="bookmark"><i class="far fa-bookmark"></i></div>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <p>5.0</p>
+            </div>
+            <div class="read">
+              <p class="link"><a href="recipes/chicken.html">Read more</a></p>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="images/apple-pie.jpeg" alt="Lemon Thyme Chicken Tenders" />
+        </div>
+        <div class="card-content">
+          <div class="card-content-flex">
+            <div class="card-text">
+              <p class="food-name">Apple Pie</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-price">$656</div>
+          </div>
+          <div class="card-other">
+            <div class="bookmark"><i class="far fa-bookmark"></i></div>
+            <div class="rating">
+              <i class="fas fa-star-half-alt"></i>
+              <p>3.6</p>
+            </div>
+            <div class="read">
+              <p class="link"><a href="recipes/apple-pie.html">Read more</a></p>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-img">
+          <img src="images/casserole.jpeg" alt="Lemon Thyme Chicken Tenders" />
+        </div>
+        <div class="card-content">
+          <div class="card-content-flex">
+            <div class="card-text">
+              <p class="food-name">King Ranch Chicken Casserole</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-price">$656</div>
+          </div>
+          <div class="card-other">
+            <div class="bookmark"><i class="far fa-bookmark"></i></div>
+            <div class="rating">
+              <i class="fas fa-star-half-alt"></i>
+              <p>3.5</p>
+            </div>
+            <div class="read">
+              <p class="link"><a href="recipes/casserole.html">Read more</a></p>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="git">
+      <a href="https://github.com/JuanDCeballos" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+    </div>
   </body>
 </html>
